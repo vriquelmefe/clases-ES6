@@ -1,5 +1,5 @@
-import Cliente from './cliente.js';
-import Impuestos from './impuestos.js';
+import Cliente from './src/cliente.js';
+import Impuestos from './src/impuestos.js';
 
 const calculoImpuestoSimona = new Impuestos(3400, 1300);
 const calculoImpuestoBorja = new Impuestos(45600, 12500);
