@@ -8,5 +8,5 @@ const cliente2 = new Cliente('Borja', calculoImpuestoBorja);
 
 console.log(cliente1.calcularImpuesto());
 console.log(cliente2.calcularImpuesto());
-console.log(cliente1);
+console.log(`${cliente1.nombre} su impuesto anual es: $ ${cliente1.calcularImpuesto()}`);
 console.log(cliente2)

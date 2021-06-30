@@ -12,5 +12,5 @@ var cliente1 = new _cliente["default"]('Simona', calculoImpuestoSimona);
 var cliente2 = new _cliente["default"]('Borja', calculoImpuestoBorja);
 console.log(cliente1.calcularImpuesto());
 console.log(cliente2.calcularImpuesto());
-console.log(cliente1);
+console.log("".concat(cliente1.nombre, " su impuesto anual es: $ ").concat(cliente1.calcularImpuesto()));
 console.log(cliente2);
